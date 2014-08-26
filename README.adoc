@@ -1,0 +1,29 @@
+== README
+
+Welcome to the /ch/open Workshop about Puppet. Hope you'll enjoy this day joining us and learn a lot of new and useful stuff.
+
+We will be running the workshop on Ubuntu 14.04 LTS and recommend you to do the same. For your convenience, we have prepared a preconfigured VM image for VM Ware (configured with 2GB of RAM and 2 cores assigend). Login with user chopen/chopen
+
+=== Custom Installations
+
+If you prefer using your own VM image, please follow the steps listed below:
+
+- We have prepared a public Git repository found at https://github.com/ctpconsulting/chopen-workshop-puppet[GitHub]. You find a +setup.sh+ script in there. Execute it to get Puppet and some related tools installed.
+- We recommend using Sublime as text editor (in general a paid editor, but it features a generous trial period) which is available for all major platforms. You can install it as described under http://www.webupd8.org/2013/07/sublime-text-3-ubuntu-ppa-now-available.html[this page]:
+
+[source,bash]
+----
+sudo add-apt-repository ppa:webupd8team/sublime-text-3
+sudo apt-get update
+sudo apt-get install sublime-text-installer
+----
+
+- Also configure Sublime with the Puppet package. Run https://sublime.wbond.net/installation[the package installer] and then use https://sublime.wbond.net/docs/usage[the description here] to install the Puppet package.
+
+CAUTION: By default, Ubuntu uses an US keyboard layout. Be aware of that when choosing your VM password.
+
+If you have problems running the setup or plan to use anything else than the setup described above, please give us a mailto:foss@ctp.com[ping].
+
+CU soon!
+
+Bartek and Tom
