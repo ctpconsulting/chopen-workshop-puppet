@@ -20,7 +20,7 @@ if [ "" == "$PUPPET_INSTALLED" ]; then
     wget http://apt.puppetlabs.com/puppetlabs-release-$(lsb_release -sc).deb
     sudo dpkg -i puppetlabs-release-$(lsb_release -sc).deb
     sudo apt-get update
-    sudo apt-get -y install puppet ruby1.9.1-dev graphviz
+    sudo apt-get -y install puppet ruby1.9.1-dev graphviz rake git
     rm puppetlabs-release*
 else
     echo -e "\e[32mPuppet already installed\e[0m"
